@@ -1,14 +1,14 @@
 {
   "estell": {
     "displayName": "estell (自前対応版)",
-    "description": "FF14パッチ当日の自前対応版 Dalamud。ベータキー必須。",
+    "description": "FF14 2026.05.25 対応(既存シグネチャ・実行時解決のテストビルド)。ベータキー必須。",
     "track": "estell",
     "hidden": true,
     "key": "estell-beta-key",
-    "assemblyVersion": "0.0.0.0-estell.seed",
+    "assemblyVersion": "15.0.1.1-34-g3730337d3-estell.1",
     "runtimeVersion": "10.0.0",
     "runtimeRequired": true,
-    "supportedGameVer": "2026.05.01.0000.0000",
+    "supportedGameVer": "2026.05.25.0000.0000",
     "isApplicableForCurrentGameVer": true
   }
 }
