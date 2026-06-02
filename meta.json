@@ -1,11 +1,11 @@
 {
   "estell": {
     "displayName": "estell (自前対応版)",
-    "description": "FF14 2026.05.25 対応(既存シグネチャ・実行時解決のテストビルド)。ベータキー必須。",
+    "description": "FF14 2026.05.25 正式対応(ClientStructs 05.25/aers取り込み・構造体オフセット更新済み)。ベータキー必須。",
     "track": "estell",
     "hidden": true,
     "key": "estell-beta-key",
-    "assemblyVersion": "15.0.1.1-34-g3730337d3-estell.1",
+    "assemblyVersion": "15.0.1.1-34-g3730337d3-estell.2",
     "runtimeVersion": "10.0.0",
     "runtimeRequired": true,
     "supportedGameVer": "2026.05.25.0000.0000",
