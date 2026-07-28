@@ -1,11 +1,11 @@
 {
   "estell": {
     "displayName": "estell (自前対応版)",
-    "description": "FF14 2026.06.18 正式対応(ClientStructs 06.18=aers 82f00f3f1・Dalamud core 15.0.2.1 本家stg追従)。ベータキー必須。",
+    "description": "FF14パッチ当日の自前対応版 Dalamud。ベータキー必須。",
     "track": "estell",
     "hidden": true,
     "key": "estell-beta-key",
-    "assemblyVersion": "15.0.2.1-65-g2f730a149-estell.6",
+    "assemblyVersion": "15.0.1.1-220-g430384ce3-estell.1",
     "runtimeVersion": "10.0.0",
     "runtimeRequired": true,
     "supportedGameVer": "2026.06.18.0000.0000",
