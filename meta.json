@@ -5,10 +5,10 @@
     "track": "estell",
     "hidden": true,
     "key": "estell-beta-key",
-    "assemblyVersion": "15.0.3.2-34-gb86b4b1ba-estell.29",
+    "assemblyVersion": "15.0.3.2-34-gb86b4b1ba-estell.30",
     "runtimeVersion": "10.0.0",
     "runtimeRequired": true,
-    "supportedGameVer": "2026.07.16.0001.0000",
+    "supportedGameVer": "2026.08.11.0000.0000",
     "isApplicableForCurrentGameVer": true
   }
 }
