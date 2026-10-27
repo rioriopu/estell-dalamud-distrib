@@ -15,7 +15,11 @@ estell/             …(zip は GitHub Release アセットとして配布)
 
 - Meta:     `https://raw.githubusercontent.com/rioriopu/estell-dalamud-distrib/main/meta.json`
 - Version:  `https://raw.githubusercontent.com/rioriopu/estell-dalamud-distrib/main/estell/version`
-- Zip:      `https://github.com/rioriopu/estell-dalamud-distrib/releases/download/estell/latest.zip`
+- ZIP:      `estell/version` の `DownloadUrl` にある版別URLを使用する。
+- ミラー:  `MirrorDownloadUrl`。ZIPのSHA256は `DownloadSha256` と一致必須。
+
+`latest.zip` は旧版との互換用に残しており、最新版の取得先ではない。
+最新版は必ず版情報に記載されたURLから取得する。
 
 ## 更新方法
 
@@ -23,7 +27,7 @@ estell/             …(zip は GitHub Release アセットとして配布)
 (`build-and-publish.yml`)が自動で:
 
 1. `rioriopu/Dalamud` をビルド
-2. `latest.zip` を本リポジトリの Release(タグ `estell`)へアップロード
+2. `<AssemblyVersion>.zip` を本リポジトリの Release(タグ `estell`)へ公開（上書きしない）
 3. `estell/version` と `meta.json` を再生成してコミット
 
 を行う。手動編集も可。
